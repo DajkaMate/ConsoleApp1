@@ -8,15 +8,12 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static Random r = new Random;
+        static Random r = new Random();
         static void Main(string[] args)
         {
-            Console.WriteLine("kérek egy számot");
-            int szam = Convert.ToInt32(Console.ReadLine());
-            
-            
-
-            for (int i = 0; i < ; i++)
+            int szam = 0;
+   
+            for (int i = 0; i < 50; i++)
             {
                 szam = r.Next(1,101);
                 Console.WriteLine("{0} ",szam);
